@@ -1,0 +1,6 @@
+UseCase,Description,Actor,Preconditions,MainFlow,AlternativeFlow,PostConditions
+Saluti Iniziali,,,,,,
+Soddisfare un bisogno,Un cliente ha un bisogno da soddisfare ma non sa quale servizio fa al caso suo. L’utente chiede consiglio ad ADA descrivendo il proprio bisogno.,cliente,- cliente ha accesso ad ADA,"1. Cliente descrive il proprio bisogno ad ADA;
+2. ADA risponde con uno o più prodotti e servizi adatti a soddisfare il bisogno del cliente.","Il bisogno dell’utente è pertinente all’area di interesse di ADA ma non è disponibile un prodotto o servizio adatto al bisogno del cliente: ADA risponde che purtroppo non sono disponibili prodotti o servizi adatti alla richiesta.
+
+Il bisogno dell’utente non è pertinente: ADA risponde che la richiesta non è in scope e spiega in cosa può invece aiutare il cliente.",Il cliente ha ricevuto una risposta da ADA con indicazioni su prodotti o servizi adatti a soddisfare il proprio bisogno se questo esiste nella knowledge base.
